@@ -58,7 +58,7 @@ const config = {
         title: 'RagnaWorld Doc',
         logo: {
           alt: 'RagnaWorld Documentation',
-          src: 'img/logo.svg',
+          src: 'img/ragnaworld.png',
         },
         items: [
           {
