@@ -1,22 +1,26 @@
-### Neue Rolle hinzufügen
-?> /roster role add **roster** **name** _\[default\]_ _\[role\]_
+## Neue Rolle hinzufügen
+:::cmd
+/roster role add **roster** **name** _\[default\]_ _\[role\]_
+:::
 
-##### name
+### name
 Name der Rolle welche auch in der Übersicht angezeigt wird z.b.: Tanks, Priest ...
 
-##### default
+### default
 Ist dieser Wert gesetzt, landen in dieser Rolle alle Mitglieder welche keiner Rolle explizit zugeordnet sind.
 Pro Roster, kann es nur eine Standardrolle geben.
 
-##### role
+### role
 Eine Discord Rolle welche mit dieser Rolle verknüpft ist. Alle mitglieder dieser Discord-Rolle werden automatisch dem
 Roster hinzugefügt oder auch wieder entfernt
 
-### Löschen einer Rolle
+## Löschen einer Rolle
+:::cmd
 /roster role remove **roster** **name**
+:::
 
-##### roster
+### roster
 Name des Roster in dem eine Rolle gelöscht werden soll
 
-##### name
+### name
 Name der Rolle, welche gelöscht werden soll

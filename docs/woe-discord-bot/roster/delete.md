@@ -1,5 +1,7 @@
-### Löschen eines Rosters
-?> /roster delete **roster**
+## Löscht ein Roster
+:::cmd
+/roster delete **roster**
+:::
 
-##### roster
+### roster
 Name des Roster welches gelöscht werden soll
